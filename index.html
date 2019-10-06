@@ -2,98 +2,102 @@
 <html lang="en">
 
 <head>
-	<meta charset="uft-8">
+	<meta charset="utf-8">
 	<title>Smashing HTML5! - First website</title>
+	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>
-			<a href="#">
-				Smashing HTML5!
-				<span>
-					HTML5 in the year <del>2022</del> <ins>2019</ins>
-				</span>
-			</a>
-		</h1>
-	</header>
-	<main>
-		<section>
-			<h2>Featured Article</h2>
-			<article>
-				<h3>
-					<a href="post.html">HTML5 in Beetroot Academy!</a>
-				</h3>
-				<p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an
-					outstanding, cross-browser <a>HTML5</a> and <a>CSS3</a> website today!</p>
-			</article>
-		</section>
 
-		<section>
-			<article>
-				<h3>
-					<a href="#">This be the title</a>
-				</h3>
-				<time datetime="2019-10-10">10th October 2019</time>
-
-				<div>By <a href="#">Enrique Ramirez</a></div>
-				<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis
-					elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada
-					tellus.</p>
-			</article>
-
-			<article>
-				<h3>
-					<a href="#">This be the title</a>
-				</h3>
-				<time datetime="2019-10-10">10th October 2019</time>
-
-				<div>By <a href="#">Enrique Ramirez</a></div>
-				<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis
-					elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada
-					tellus.</p>
-			</article>
-		</section>
-	</main>
-	<aside>
-		<h5>blogroll</h5>
-		<ul>
-			<li>
-				<a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a>
-			</li>
-			<li>
-				<a href="http://html5doctor.com/" target="_blank">Beetroot Academy</a>
-			</li>
-			<li>
-				<a href="http://html5doctor.com/" target="_blank">W3C</a>
-			</li>
-			<li>
-				<a href="http://html5doctor.com/" target="_blank">Wordpress</a>
-			</li>
-			<li>
-				<a href="http://html5doctor.com/" target="_blank">Wikipedia</a>
-			</li>
-
-		</ul>
-	</aside>
-
-	<footer>
-		<section>
-			<div>
-				<a href="#">Beetroot Academy</a>
-				<p>Amazing Magazine</p>
-			</div>
-			<div>
-				<p>
-					Beetroot Magazine is a website and blog that offers resources and advice to web developers and web
-					designers.
-				</p>
-			</div>
-		</section>
-		<p>
-			&copy; 2019 <a href="#">Beetroot Academy</a>.
-		</p>
-	</footer>
+	<div class="ba-container">
+		<header>
+			<h1>
+				<a class="ba-logo" href="#">
+					Smashing HTML5!
+					<span>
+						HTML5 in the year <del>2022</del> <ins>2019</ins>
+					</span>
+				</a>
+			</h1>
+		</header>
+		<main>
+			<section class="ba-section">
+				<h2>Featured Article</h2>
+				<article>
+					<h3 class="ba-features-title">
+						<a href="post.html#intro">HTML5 in Beetroot Academy!</a>
+					</h3>
+					<p>Discover how to use Graceful Degradation and Progressive Enhancement techniques to achieve an
+						outstanding, cross-browser <a>HTML5</a> and <a>CSS3</a> website today!</p>
+				</article>
+			</section>
+	
+			<section class="ba-section">
+				<article>
+					<h3 class="ba-post-title">
+						<a href="#">This be the title</a>
+					</h3>
+					<time datetime="2019-10-10">10th October 2019</time>
+	
+					<div>By <a href="#">Enrique Ramirez</a></div>
+					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis
+						elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada
+						tellus.</p>
+				</article>
+	
+				<article>
+					<h3>
+						<a href="#">This be the title</a>
+					</h3>
+					<time datetime="2019-10-10">10th October 2019</time>
+	
+					<div>By <a href="#">Enrique Ramirez</a></div>
+					<p>DLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque venenatis nunc vitae libero iaculis
+						elementum. Nullam et justo <a href="#">non sapien</a> dapibus blandit nec et leo. Ut ut malesuada
+						tellus.</p>
+				</article>
+			</section>
+		</main>
+		<aside>
+			<h5>blogroll</h5>
+			<ul>
+				<li>
+					<a href="http://html5doctor.com/" target="_blank">HTML5 Doctor</a>
+				</li>
+				<li>
+					<a href="http://html5doctor.com/" target="_blank">Beetroot Academy</a>
+				</li>
+				<li>
+					<a href="http://html5doctor.com/" target="_blank">W3C</a>
+				</li>
+				<li>
+					<a href="http://html5doctor.com/" target="_blank">Wordpress</a>
+				</li>
+				<li>
+					<a href="http://html5doctor.com/" target="_blank">Wikipedia</a>
+				</li>
+	
+			</ul>
+		</aside>
+	
+		<footer>
+			<section class="ba-section">
+				<div>
+					<a href="#">Beetroot Academy</a>
+					<p>Amazing Magazine</p>
+				</div>
+				<div>
+					<p>
+						Beetroot Magazine is a website and blog that offers resources and advice to web developers and web
+						designers.
+					</p>
+				</div>
+			</section>
+			<p>
+				&copy; 2019 <a href="#">Beetroot Academy</a>.
+			</p>
+		</footer>
+	</div>
 </body>
 
 </html>
